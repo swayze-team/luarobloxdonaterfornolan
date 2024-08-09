@@ -17,7 +17,7 @@ local Tab2 = Window:MakeTab({
 
 Tab:AddTextbox({
 	Name = "Donor's Username",
-	Default = "nolahecotr1",
+	Default = "nolahector11",
 	TextDisappear = true,
 	Callback = function(Value)
 		_G.WhoDonated = Value
@@ -27,7 +27,7 @@ Tab:AddTextbox({
 
 Tab:AddTextbox({
 	Name = "Donor's User Id",
-	Default = "nolahector1",
+	Default = "nolahector11",
 	TextDisappear = true,
 	Callback = function(Value)
 		_G.SmiteAnimationId = Value
@@ -37,7 +37,7 @@ Tab:AddTextbox({
 
 Tab:AddTextbox({
 	Name = "Dono Receiver's Username",
-	Default = "nolahector1",
+	Default = "nolanhector1",
 	TextDisappear = true,
 	Callback = function(Value)
 		_G.WhoGotRobux = Value
